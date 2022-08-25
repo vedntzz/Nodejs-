@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express ();
+const app = express();
 const dotenv = require('dotenv');
 const mongoose = require ('mongoose');
 
@@ -11,8 +11,8 @@ dotenv.config();
     () => console. log('connected to db!')
 );
 //Import Routes
-const authRoute = require(' ./routes/auth' );
-const postRoute = require(" ./ routes/posts");
+const authRoute = require('./routes/auth');
+const postRoute = require("./routes/posts");
 
 
 //MiddLeware
